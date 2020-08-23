@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #555;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+    max-width: 100%;
+}
+
+
+.login-wrap{
+    background: url("../img/bg.jpeg") no-repeat;
+    background-position: center left;
+    padding: 3em 10em;
+    height: 550px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+
+.login-wrap .info h4{
+    font-size: 25px;
+    margin: 20px 0;
+    color: #fff;
+}
+
+.login-wrap .info p{
+    max-width: 500px;
+    margin-bottom: 30px;
+    color: #ffffffd2;
+}
+
+.login-wrap .social-login{
+    display: flex;
+    flex-direction: column; 
+}
+
+.login-wrap .social-login .col{
+    background: #ffffffe0;
+    padding: 10px 20px;
+    width: 50%;
+    margin: auto;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    transition: all .5s ease-in-out;
+}
+
+.login-wrap .social-login .col:hover{
+    background: #ffffff3a;
+}
+
+.login-wrap .social-login a{
+    text-decoration: none;
+    color: inherit;    
+}
+
+.login-wrap .social-login p{
+    color: #888785;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.login-wrap .social-login .fa-google,
+.login-wrap .social-login .fa-facebook,
+.login-wrap .social-login .fa-twitter,
+.login-wrap .social-login .fa-envelope{
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.login-wrap .social-login .fa-google{
+    color: #ea4335;
+}
+
+.login-wrap .social-login .fa-facebook{
+    color: #0000ff;
+}
+
+.login-wrap .social-login .fa-twitter{
+    color:#1da1f2;
+}
+
+.option small{
+    color: #fff;
+}
+
+.option a{
+    color: #ff0000cb;
+    text-decoration: none;
+}
+
+.option a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
